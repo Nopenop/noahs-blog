@@ -1,0 +1,49 @@
+:root{
+    --lavender-blush:#f5e6e8;
+    --thistle:#d5c6e0;
+    --rose-quarts:#aaa1c8;
+    --mountbatten-pink:#967aa1;
+    --space-cadet:#192a51;
+}
+
+body{
+    background-color: var(--lavender-blush);
+}
+
+h1 {
+    background-color: var(--thistle);
+    margin: auto;
+    width: 1000px;
+    color:var(--space-cadet);
+    border: 3px;
+    /* padding: 10px; */
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.function {
+    margin:auto;
+    width: 1000px;
+    text-align: left;
+}
+
+.container {
+    display: flex;
+    background-color: var(--mountbatten-pink);
+    justify-content: space-around;
+    width: 1000px;
+    margin: auto;
+}
+
+.container a{
+    font-size: 25px;
+}
+
+.portrait {
+    width: 500px;
+    margin: auto;
+}
+
